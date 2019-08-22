@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemVatly, diemHoa, diemSinh;
+    diemVatly = prompt("Vui lòng nhập điểm vật lý:");
+    diemHoa = prompt("Vui lòng nhập điểm Hóa:");
+    diemSinh = prompt("Vui lòng nhập điểm Sinh:");
+    let diemV = parseFloat(diemVatly);
+    let diemH = parseFloat(diemHoa);
+    let diemS = parseFloat(diemSinh);
+    let tongDiem=(diemV+diemH+diemS);
+    let diemTrungBinh = (diemV + diemH + diemS) / 3;
+    alert("Tổng điểm 3 môn của bạn là: "+ tongDiem);
+    alert("Điểm Trung Bình 3 môn là :" + diemTrungBinh);
+</script>
+</body>
+</html>
